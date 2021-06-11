@@ -2,6 +2,7 @@
 
 body{
     background-color: white;
+    font-family: 'Zilla Slab', serif;
 }
 
 div{
@@ -29,7 +30,6 @@ div{
 #slogan p{
     font-weight: 400;
     font-size: 35px;
-    font-family: 'Zilla Slab', serif;
     color: rgba(255, 255, 255, 0.6);
 }
 
@@ -40,8 +40,74 @@ div{
 
 #flex-row{
     display: flex;
+    height: 200px;
+    color: white;
+    font-size: xx-large;
+}
+#column{
+    width: 25%;
+    flex-direction: column;
+    font-size: 1em;
+  
+}
+
+.happy-hour{
+    height: 50%;
+    color: black;
+    background-color: rgba(205, 199, 202, 0.6);
+    
+}
+
+.party-time{
+    height: 50%;
+    background-color: #F15A29;
 }
 
 #breakfast{
-    background-image: url(./assets/);
+    background-image: url(./assets/foodtop/breakfast.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 25%;
+    
 }
+
+#lunch{
+    background-image: url(./assets/foodtop/lunch.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 25%;
+    opacity: 0.5;
+}
+
+#dinner{
+    background-image: url(./assets/foodtop/dinner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 25%;
+
+}
+
+#dinner p, #lunch p, #breakfast p{
+    font-size: 1em;
+    position: absolute;
+    padding-top: 45px;
+    margin-left: 130px;
+  
+}
+
+
+#description{
+    display: flex;
+    padding: 100px;
+    padding-left: 150px;
+    position: absolute;
+}
+
+#fast-food-img{
+    font-size: 0px;
+}
+
+#fast-food-p{
+    text-align: left;
+    margin-left: 70px;
+    

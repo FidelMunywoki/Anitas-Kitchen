@@ -19,21 +19,10 @@ div{
 }
 
 
-#main>nav>img{
-    padding-top: 100px;
-    margin-left: 50%;
-  
-}
-.shift{
-    padding-right: 320px;
-}
-
 #slogan{
-    
+    padding-top: 100px;
     text-align: center;
-    padding: 5px;
-    position: relative;
-    margin-left: 50%;
+    margin-left: 50px;
 
 }
 
@@ -47,4 +36,12 @@ div{
 #slogan strong{
     font-weight: bold;
     color: rgba(255, 255, 255, 1);
+}
+
+#flex-row{
+    display: flex;
+}
+
+#breakfast{
+    background-image: url(./assets/);
 }

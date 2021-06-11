@@ -15,7 +15,7 @@ div{
     background-image: url(./assets/backgrounds/landing.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: rgba(0, 0, 0, 0.1);
+    opacity: 0.7;
     color: white;
 }
 
@@ -107,11 +107,10 @@ div{
 #fast-food-img{
     font-size: 0px;
     margin-right: 770px;
-    padding: 10px;
+    padding: 20px;
     height: 390px;
-    box-shadow: 5px 5px 5px 5px #888888;
-    /*box-shadow: 10px 10px 5px #aaaaaa;*/
-
+    border: 1px solid #ddd;
+    border-radius: 10px;
 
 }
 
@@ -122,4 +121,20 @@ div{
     height: 390px;
     margin-left: 570px;
     
+}
+#fast-food-p>p{
+    padding-bottom: 20px;
+}
+#fast-food-p p:nth-of-type(2n){
+    color: red;
+    padding: 5px;
+    border: 1px solid #e74646;
+    box-shadow: 1px 2px 5px #dd4747;
+    margin-right: 230px;
+    
+}
+
+#increase{
+    font-size: xx-large;
+
 }

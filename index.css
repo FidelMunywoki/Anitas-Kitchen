@@ -104,7 +104,7 @@ div{
     height: 390px;
 }
 
-#fast-food-img{
+#fast-food-img, #drinks-img{
     font-size: 0px;
     margin-right: 770px;
     padding: 20px;
@@ -122,7 +122,7 @@ div{
     margin-left: 570px;
     
 }
-#fast-food-p>p{
+#fast-food-p>p,#drinks-p>p{
     padding-bottom: 20px;
 }
 #fast-food-p p:nth-of-type(2n){
@@ -138,3 +138,45 @@ div{
     font-size: xx-large;
 
 }
+
+
+
+#drinks{
+    position: absolute;
+    margin-top: 500px;
+    display: flex;
+    padding: 100px;
+    padding-left: 150px;
+    position: absolute;
+    height: 390px;
+    
+}
+
+
+#drinks-img{
+    display: flex;
+    margin-left: 500px;
+  
+
+}
+
+#drinks-p{
+    text-align: right;
+    width: 400px;
+    padding: 10px;
+    position: absolute;
+    height: 390px;
+   
+}
+
+#drinks-p p:nth-of-type(2n){
+    text-align: right 0px;
+    color: red;
+    padding: 5px;
+    border: 1px solid #e74646;
+    box-shadow: 1px 2px 5px #dd4747;
+    margin-left: 220px;
+    
+   
+}
+

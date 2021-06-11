@@ -101,13 +101,25 @@ div{
     padding: 100px;
     padding-left: 150px;
     position: absolute;
+    height: 390px;
 }
 
 #fast-food-img{
     font-size: 0px;
+    margin-right: 770px;
+    padding: 10px;
+    height: 390px;
+    box-shadow: 5px 5px 5px 5px #888888;
+    /*box-shadow: 10px 10px 5px #aaaaaa;*/
+
+
 }
 
 #fast-food-p{
     text-align: left;
-    margin-left: 70px;
+    position: absolute;
+    width: 25%; 
+    height: 390px;
+    margin-left: 570px;
     
+}

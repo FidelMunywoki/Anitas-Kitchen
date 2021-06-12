@@ -5,6 +5,7 @@ body{
     font-family: 'Zilla Slab', serif;
 }
 
+/* to remove */
 div{
     border: 1px dashed green;
 }
@@ -175,8 +176,40 @@ div{
     padding: 5px;
     border: 1px solid #e74646;
     box-shadow: 1px 2px 5px #dd4747;
-    margin-left: 220px;
-    
-   
+    margin-left: 220px; 
 }
 
+
+.layout{
+    margin-top: 1100px;
+    background-image: url(./assets/backgrounds/foodsBg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 85.9%;
+    height: 400px;
+    padding: 100px;
+}
+
+.layout div{
+    border: 1px dashed red;
+}
+
+#items{
+    
+    background-color: white;
+    margin-left: 90px;
+    width: 90%;
+   position: relative;
+   background-color: lightgrey;
+    
+    
+}
+
+
+.names{
+    display: flex;
+    justify-content: space-around;
+    border-right: black;
+    
+    
+}

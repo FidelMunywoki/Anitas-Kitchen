@@ -5,6 +5,7 @@ body{
     font-family: 'Zilla Slab', serif;
 }
 
+
 /* to remove */
 div{
     border: 1px dashed green;
@@ -20,7 +21,20 @@ div{
     color: white;
 }
 
+.top-left{
+    margin-top: 70px;
+    margin-left: 100px;
+    width: 60px;
+}
 
+.top-left div{
+    height: 3px;
+    background-color: white;
+    margin: 7px 0px;
+    border-radius: 20px;
+    width: 60px;
+    display: block;
+}
 #slogan{
     padding-top: 100px;
     text-align: center;
@@ -236,4 +250,25 @@ div{
 #nav-arrow{
     font-size: 70px;
 
+}
+
+
+
+#customers-menu{
+    display: flex;
+    padding: 5%;
+}
+
+
+
+#happy-customers{
+    width: 50%;
+    text-align: center;
+}
+
+
+#about-menu{
+    width: 50%;
+    text-align: center;
+    margin
 }

@@ -6,10 +6,7 @@ body{
 }
 
 
-/* to remove */
-div{
-    border: 1px dashed green;
-}
+
 
 #main{
     width: 100%;
@@ -310,3 +307,84 @@ div{
 
 
 /*Bottom part....................*/
+
+#subscribe{
+    background-image: url(./assets/backgrounds/subscribe.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    
+}
+
+#subscribe-enclose{
+    padding-top: 1%;
+    padding-bottom: 5%;
+    padding-right: 10%;
+    padding-left: 10%;
+    margin-top: 5%;
+    color: white;
+    text-align: center;
+   
+}
+
+#subscribe-enclose h2{
+    font-size: 40px;
+    
+}
+
+#email-subscribe{
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 68%;
+    margin-left: 16%;
+    height: 50px;
+
+}
+
+.em-position{
+    width: 60%;
+    border-radius: 1px solid grey;
+    background-color: rgba(255, 255, 255, 0.2);
+    
+}
+
+
+.sub-position{
+    width: 30%;
+    border-radius: 1px solid grey;
+    background-color: #F15A29;
+}
+
+.em-position p, .sub-position p{
+    text-align: left;
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+
+
+
+/*.....................*/
+
+#bottom-part{
+    background-color:#F15A29;
+    text-align: center;
+    color: white;
+    padding: 40px;
+}
+
+#logo-flex{
+    display: flex;
+    margin-left: 630px;
+}
+#menu-logo{
+    font-size: xx-large;
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 10px;
+}
+
+#we-are{
+    font-size: 20px;
+}

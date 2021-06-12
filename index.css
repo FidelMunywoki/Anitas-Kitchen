@@ -127,10 +127,10 @@ div{
     padding-bottom: 20px;
 }
 #fast-food-p p:nth-of-type(2n){
-    color: red;
+    color: #F15A29;
     padding: 5px;
-    border: 1px solid #e74646;
-    box-shadow: 1px 2px 5px #dd4747;
+    border: 1px solid #F15A29;
+    box-shadow: 1px 2px 5px #F15A29;
     margin-right: 230px;
     
 }
@@ -172,9 +172,9 @@ div{
 
 #drinks-p p:nth-of-type(2n){
     text-align: right 0px;
-    color: red;
+    color: #F15A29;
     padding: 5px;
-    border: 1px solid #e74646;
+    border: 1px solid #F15A29;
     box-shadow: 1px 2px 5px #dd4747;
     margin-left: 220px; 
 }
@@ -207,6 +207,18 @@ div{
     text-align: center;
 }
 
+#items div:first-child{
+    color: #F15A29;
+    background-color: white;
+}
+
+#border-style{
+    box-shadow: 0.9 10px 10px -10px black;
+    border-right: 5px solid #676965;
+    border-right-width: thin;
+
+}
+
 
 
 #itemImgs{
@@ -216,4 +228,12 @@ div{
     width: 90%;
     margin-left: 90px;
     padding-top: 40px;
+    text-align: center;
+    color: #F15A29;
+   
+}
+
+#nav-arrow{
+    font-size: 70px;
+
 }

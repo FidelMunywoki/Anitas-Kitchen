@@ -257,18 +257,56 @@ div{
 #customers-menu{
     display: flex;
     padding: 5%;
+    
 }
 
-
+#customers-menu h2{
+    color: #F15A29;
+}
 
 #happy-customers{
     width: 50%;
     text-align: center;
+    margin-left: 10%;
+    padding-right: 5%;
+    border: 1px solid lightgrey;
+    box-shadow: 3px 5px 9px   lightgrey;
 }
+
+#customer-images{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+
+#increase2{
+    font-size: x-large;
+    color: #F15A29;
+}
+
+
+
 
 
 #about-menu{
     width: 50%;
     text-align: center;
-    margin
+    margin-right: 5%;
+    border: 1px solid lightgrey;
+    box-shadow: 3px 5px 9px  lightgrey;
+   
 }
+
+#about-shift{
+    margin-left: 10%;
+   
+   
+
+}
+
+
+
+/*Bottom part....................*/

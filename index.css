@@ -163,7 +163,7 @@ div{
     position: absolute;
     width: 25%; 
     height: 390px;
-    margin-left: 570px;
+    margin-left: 650px;
     
 }
 #fast-food-p>p,#drinks-p>p{
@@ -377,7 +377,7 @@ div{
 
 .em-position{
     width: 60%;
-    border-radius: 1px solid grey;
+    border-radius: 10px solid grey;
     background-color: rgba(255, 255, 255, 0.2);
     
 }
@@ -385,7 +385,7 @@ div{
 
 .sub-position{
     width: 30%;
-    border-radius: 1px solid grey;
+    border-radius: 10px solid grey;
     background-color: #F15A29;
 }
 

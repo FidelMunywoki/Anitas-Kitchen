@@ -418,6 +418,10 @@ div{
     padding: 10px;
 }
 
+#logo-icons img{
+    padding-left: 1%;
+
+}
 #we-are{
     font-size: 20px;
 }

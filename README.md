@@ -21,11 +21,11 @@ The fronted end product will have its back end product soon. Development is unde
 ## Technologies Used
 All the styling in this project are achieved using CSS.
 
-Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.
+
 ## Support and contact details
 Incase of anything kindly you can contact me through fidelis.munywoki@student.moringaschool.com or feel free to contribute to the code via github.
 ### License
-*Any person can use this project but the ownership of this project however remains solely a property of Fidelis Munywoki. *
+Any person can use this project but the ownership of this project however remains solely a property of Fidelis Munywoki. 
 
 Copyright (c) 2021 **Fidelis Munywoki**
   
